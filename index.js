@@ -7,7 +7,6 @@ const app = express();
 // app.use(cors({ origin: process.env.FRONTEND_URL }));
 app.use(cors());
 app.use(express.json());
-app.use("/api/stores", storeRoute);
 
 const port = process.env.PORT || 8081;
 app.listen(port, () => console.log(`Listening on port ${port}!`));
