@@ -1,0 +1,25 @@
+{
+  "name": "photographybackend",
+  "version": "1.0.0",
+  "description": "backend api for photo gallery website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydools/photographyBackend.git"
+  },
+  "author": "Jordan Dooley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydools/photographyBackend/issues"
+  },
+  "homepage": "https://github.com/jaydools/photographyBackend#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
