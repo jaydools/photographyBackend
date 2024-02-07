@@ -11,7 +11,7 @@ app.use(express.json());
 app.get("/images", async (req, res) => {
     try {
         const response = await fetch(
-            `https://api.cloudinary.com/v1_1/${process.env.CLOUDINARY_CLOUD_NAME}/resources/image`,
+            `https://api.cloudinary.com/v1_1/${process.env.CLOUDINARY_CLOUD_NAME}/resources/image?max_results=200`,
             {
                 headers: {
                     Authorization: `Basic ${Buffer.from(
